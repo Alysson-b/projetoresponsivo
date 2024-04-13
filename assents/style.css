@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-color: #e47b4b;
+}
+
+body img{
+    width: 500px;
+    height: 300px
+    
+}
+
+header{
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow:  0 0.1rem 0.5rem  #cc3838;
+    background-color: #e47b4b;
+    
+    
+}
+
+header span{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #dd0000;
+    background-color: #e47b4b;
+}
+header h2{
+    background-color: #e47b4b;
+}
+
+header li{
+    background-color: #e47b4b;
+    
+}
+
+
+header ul {
+    display: flex;
+    gap: 5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    background-color: #e47b4b;
+    
+}
+
+header i{
+    font-size: 1.5rem;
+    color: #ce3333;
+    transition: all 0.5s ease-in-out;
+    background-color: #e47b4b;
+    
+}
+
+header i:hover{
+    color: #dd0000;
+    transform: scale(1.3);
+}
+
+header li:hover{
+    color: #dd0000;
+    transform: scale(1.1);
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu img{
+    border-radius: 150px;
+    margin-top: 15rem;
+    margin-left: 52rem;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+}
+
+.menu h1 strong{
+    color: #d81d1d;
+}
+
+.menu h1{
+    margin-left: 9rem;
+    margin-top: 150px;
+    font-family: open sans , sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.menu p{
+    margin-left: 9rem;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #d8d2d2
+}
+.botao{
+    display: flex;
+    margin-left: 9rem;
+    gap: 1rem;
+    margin-top: 25px;
+}
+
+.botao1{
+    width: 10%;
+    padding: 8px;
+    background-color: #f0532b;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    
+}
+
+.botao1:hover{
+    transform: scale(1.2);
+
+
+}
+
+.botao2{
+    width: 10%;
+    padding: 3px;
+    background-color: #b3b3b3;
+    color: #181818;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.botao2:hover{
+    transform: scale(1.2);
+}
+
+.menu-meio{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9rem;
+    margin-top: 15rem;
+}
+
+.menu-meio img{
+    margin-top: 5rem;
+    margin-left: 47rem;
+    position: absolute;
+    border-radius: 80px;
+}
+
+.caixa h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.caixa p{
+    margin-top: 20px;
+    font-family: "Open Sans" , sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #d8d2d2;
+}
+
+.caixa2{
+    text-align: center;
+    background-color: #dd2f03;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 22%;
+    height: auto;
+}
+.caixa2 h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 50px;
+    background-color: #dd2f03
+}
+
+.caixa2 p{
+    padding: 2px;
+    font-family: "Open Sans" , sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #eeeeee;
+    margin-top: 10px;
+    background-color: #dd2f03
+}
+
+.caixa3{
+    text-align: center;
+    background-color: #dd2f03;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 22%;
+    height: auto;
+    position: absolute;
+    margin-left: 20rem;
+    margin-top: 208px;
+}
+.caixa3 h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 50px;
+    background-color: #dd2f03
+}
+
+.caixa3 p{
+    padding: 2px;
+    font-family: "Open Sans" , sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #eeeeee;
+    margin-top: 10px;
+    background-color: #dd2f03
+}
+
+.Produtos{
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 9rem;
+    margin-top: 150px;
+}
+
+.pizzas h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000da;
+    margin-top: 70px;
+}
+
+.pizzas img{
+    width: 250px;
+    height: auto;
+    margin-top: 45px;
+    border-radius: 40px;
+}
+
+.pizzas p{
+    margin-top: 10px;
+    font-family: "open sans" , sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+.pz1{
+    width: 21%;
+    position: absolute;
+    margin-left: 9rem;
+}
+
+.pz2{
+    width: 21%;
+    position: absolute;
+    margin-left: 29rem;
+    
+}
+
+.pz3{
+    width: 21%;
+    position: absolute;
+    margin-left: 47rem;
+}
+
+.pz4{
+    width: 21%;
+    position: absolute;
+    margin-left: 66rem;
+}
+
+.cx-pergunta{
+    margin-top: 35rem;
+    margin-left: 9rem;
+}
+
+.cx-pergunta h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+.cx-pergunta h3{
+    margin-top: 22px;
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: #000000;
+
+}
+
+.cx-pergunta p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "Open Sans" , sans-serif;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.pg1{
+    border-bottom: solid 1px black;
+    width: 50%;
+}
+
+.pg2{
+    border-bottom: solid 1px black;
+    width: 50%;
+}
+
+.pg3{
+    border-bottom: solid 1px black;
+    width: 50%;
+}
+.pg4{
+    border-bottom: solid 1px black;
+    width: 50%;
+}
+
+.rodape{
+    margin-top: 120px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.rodape h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 43px
+}
+
+.rodape p{
+    margin-top: 15px;
+    font-family: "Open Sans" , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.rodape a i{
+    color: #000000;
+    margin-top: 15px;
+    font-size: 3rem;
+    padding-left: 8px;
+}
+
+
+@media (max-width: 500px){
+    
+    .menu h1{
+        color: #1f0101;
+        font-size: 45px;
+    }
+
+    header{
+        margin-top: 30px;
+        margin-left: 4rem;
+    }
+
+    header ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        cursor: pointer;
+        padding: 2rem;
+    }
+
+    .menu img{
+        position: absolute;
+        display: flex;
+        margin-top: 13rem;
+        margin-left: 26rem;
+        width: 300px;
+        height: 200px;
+    }
+
+    .menu p{
+        color: #ffecec;
+        font-weight: 600;
+    }
+
+    .menu-meio img{
+        margin-top: 1.5rem;
+        margin-left: 20rem;
+        width: 300px;
+        height: 200px;
+    }
+
+    .botao1{
+        width: 50%;
+        padding: 10px;
+        font-weight: 500;
+    }
+
+    .botao2{
+        width: 50%;
+        padding: 10px;
+        font-weight: 500;
+    }
+
+    .caixa h2{
+        font-size: 32px;
+    }
+
+    .caixa p{
+        font-weight: 600;
+        color: #ffecec;
+    }
+
+    .caixa2{
+        width: 80%;
+        margin-top: 5rem;
+        padding: 9px;
+    }
+
+    .caixa2 p{
+        font-weight: 500;
+        color: #d8d2d2;
+    }
+
+    .caixa3{
+        margin: 19rem;
+        margin-top: 18.5rem;
+        width: 55%;
+        padding: 9px;
+    }
+
+    .caixa3 p{
+        font-weight: 700;
+        color: #d8d2d2;
+    }
+
+    .pz1 p{
+        color: #dd0000;
+        font-size: 18px;
+    }
+
+    .pz2 p{
+        color: #dd0000;
+        font-size: 18px;
+    }
+
+    .pz3 p{
+        color: #dd0000;
+        font-size: 18px;
+    }
+
+    .pz4 p{
+        color: #dd0000;
+        font-size: 18px;
+    }
+    .pz3{
+        margin: 9rem;
+        margin-top: 30rem;
+    }
+
+    .pz4{
+        margin: 29rem;
+        margin-top: 29rem;
+    }
+
+    .cx-pergunta{
+        margin-top: 70rem;
+    }
+
+    .cx-pergunta h3{
+        margin-top: 5rem;
+        font-size: 32px;
+        font-weight: 700;
+
+    }
+    .cx-pergunta p {
+        margin-top: 1rem;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .pg1{
+        width: 80%;
+    }
+
+    .pg2{
+        width: 80%;
+    }
+
+    .pg3{
+        width: 80%;
+    }
+
+    .pg4{
+        width: 80%;
+    }
+    
+    .rodape{
+        padding-left: 7rem;   
+    }
+}
