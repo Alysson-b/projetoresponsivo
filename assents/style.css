@@ -83,7 +83,7 @@ header li:hover{
 .menu img{
     border-radius: 120px;
     margin-top: 9rem;
-    margin-left: 48rem;
+    margin-left: 46rem;
     position: absolute;
     width: 600px;
     height: 400px;
@@ -94,7 +94,7 @@ header li:hover{
 }
 
 .menu h1{
-    margin-left: 5rem;
+    margin-left: 3rem;
     margin-top: 50px;
     font-family: open sans , sans-serif;
     font-size: 70px;
@@ -102,7 +102,7 @@ header li:hover{
 }
 
 .menu p{
-    margin-left: 5.5rem;
+    margin-left: 3.5rem;
     margin-top: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -110,7 +110,7 @@ header li:hover{
 }
 .botao{
     display: flex;
-    margin-left: 5rem;
+    margin-left: 3rem;
     gap: 2rem;
     margin-top: 25px;
 }
@@ -126,13 +126,11 @@ header li:hover{
     border: none;
     border-radius: 13px;
     cursor: pointer;
-    
+
 }
 
 .botao1:hover{
     transform: scale(1.2);
-
-
 }
 
 .botao2{
@@ -154,7 +152,7 @@ header li:hover{
 .menu-meio{
     display: flex;
     flex-direction: column;
-    margin-left: 5rem;
+    margin-left: 3rem;
     margin-top: 15rem;
 }
 
@@ -162,7 +160,7 @@ header li:hover{
     width: 500px;
     height: 300px;
     margin-top: 5rem;
-    margin-left: 47rem;
+    margin-left: 44rem;
     position: absolute;
     border-radius: 60px;
 }
@@ -243,7 +241,7 @@ header li:hover{
     font-family: "Roboto", sans-serif;
     font-size: 50px;
     font-weight: 500;
-    margin-left: 5rem;
+    margin-left: 3rem;
     margin-top: 150px;
 }
 
@@ -272,31 +270,31 @@ header li:hover{
 .pz1{
     width: 25%;
     position: absolute;
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 
 .pz2{
     width: 21%;
     position: absolute;
-    margin-left: 24.5rem;
+    margin-left: 22.5rem;
     
 }
 
 .pz3{
     width: 21%;
     position: absolute;
-    margin-left: 44rem;
+    margin-left: 42rem;
 }
 
 .pz4{
     width: 21%;
     position: absolute;
-    margin-left: 63.5rem;
+    margin-left: 61.5rem;
 }
 
 .cx-pergunta{
     margin-top: 38rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 
 .linha{
