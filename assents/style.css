@@ -12,20 +12,18 @@
     background-color: #e47b4b;
 }
 
-body img{
-    width: 500px;
-    height: 300px
-    
+body{
+    width: 100%;
 }
 
 header{
-    margin-top: 20px;
-    padding: 30px;
+    margin-top: 25px ;
+    padding: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    border-radius: 25px;
-    box-shadow:  0 0.1rem 0.5rem  #cc3838;
+    border-radius: 15px;
+    box-shadow: 0px 5px 25px  #ff0000b0;
     background-color: #e47b4b;
     
     
@@ -83,9 +81,9 @@ header li:hover{
 }
 
 .menu img{
-    border-radius: 150px;
-    margin-top: 15rem;
-    margin-left: 52rem;
+    border-radius: 120px;
+    margin-top: 9rem;
+    margin-left: 48rem;
     position: absolute;
     width: 600px;
     height: 400px;
@@ -96,15 +94,15 @@ header li:hover{
 }
 
 .menu h1{
-    margin-left: 9rem;
-    margin-top: 150px;
+    margin-left: 5rem;
+    margin-top: 50px;
     font-family: open sans , sans-serif;
     font-size: 70px;
     font-weight: 500;
 }
 
 .menu p{
-    margin-left: 9rem;
+    margin-left: 5.5rem;
     margin-top: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -112,8 +110,8 @@ header li:hover{
 }
 .botao{
     display: flex;
-    margin-left: 9rem;
-    gap: 1rem;
+    margin-left: 5rem;
+    gap: 2rem;
     margin-top: 25px;
 }
 
@@ -156,15 +154,23 @@ header li:hover{
 .menu-meio{
     display: flex;
     flex-direction: column;
-    margin-left: 9rem;
+    margin-left: 5rem;
     margin-top: 15rem;
 }
 
 .menu-meio img{
+    width: 500px;
+    height: 300px;
     margin-top: 5rem;
     margin-left: 47rem;
     position: absolute;
-    border-radius: 80px;
+    border-radius: 60px;
+}
+
+.box{
+    margin-top: 2rem;
+    display: flex;
+    gap: 30px;
 }
 
 .caixa h2{
@@ -174,7 +180,7 @@ header li:hover{
 }
 
 .caixa p{
-    margin-top: 20px;
+    margin-top: 6rem;
     font-family: "Open Sans" , sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -186,8 +192,8 @@ header li:hover{
     background-color: #dd2f03;
     margin-top: 20px;
     border-radius: 30px;
-    width: 22%;
-    height: auto;
+    width: 300px;
+    height: 200px;
 }
 .caixa2 h3{
     font-family: "Roboto", sans-serif;
@@ -210,13 +216,10 @@ header li:hover{
 .caixa3{
     text-align: center;
     background-color: #dd2f03;
-    margin-top: 20px;
     border-radius: 30px;
-    width: 22%;
-    height: auto;
-    position: absolute;
-    margin-left: 20rem;
-    margin-top: 208px;
+    width: 300px;
+    height: 200px;
+    margin-top: 21px;
 }
 .caixa3 h3{
     font-family: "Roboto", sans-serif;
@@ -240,7 +243,7 @@ header li:hover{
     font-family: "Roboto", sans-serif;
     font-size: 50px;
     font-weight: 500;
-    margin-left: 9rem;
+    margin-left: 5rem;
     margin-top: 150px;
 }
 
@@ -252,10 +255,11 @@ header li:hover{
 }
 
 .pizzas img{
-    width: 250px;
-    height: auto;
+    display: flex;
+    width: 300px;
+    height: 200px;
     margin-top: 45px;
-    border-radius: 40px;
+    border-radius: 15px;
 }
 
 .pizzas p{
@@ -266,42 +270,48 @@ header li:hover{
 }
 
 .pz1{
-    width: 21%;
+    width: 25%;
     position: absolute;
-    margin-left: 9rem;
+    margin-left: 5rem;
 }
 
 .pz2{
     width: 21%;
     position: absolute;
-    margin-left: 29rem;
+    margin-left: 24.5rem;
     
 }
 
 .pz3{
     width: 21%;
     position: absolute;
-    margin-left: 47rem;
+    margin-left: 44rem;
 }
 
 .pz4{
     width: 21%;
     position: absolute;
-    margin-left: 66rem;
+    margin-left: 63.5rem;
 }
 
 .cx-pergunta{
-    margin-top: 35rem;
-    margin-left: 9rem;
+    margin-top: 38rem;
+    margin-left: 5rem;
 }
 
+.linha{
+    width: 750px;
+    margin-top: 30px;
+    border-bottom: solid 1px black;
+
+}
 .cx-pergunta h2{
     font-family: "Roboto", sans-serif;
     font-size: 40px;
     font-weight: 500;
 }
 .cx-pergunta h3{
-    margin-top: 22px;
+    margin-top: 50px;
     font-family: "Roboto", sans-serif;
     font-size: 21px;
     font-weight: 500;
@@ -317,22 +327,7 @@ header li:hover{
     color: #ffffff;
 }
 
-.pg1{
-    border-bottom: solid 1px black;
-    width: 50%;
-}
-
-.pg2{
-    border-bottom: solid 1px black;
-    width: 50%;
-}
-
-.pg3{
-    border-bottom: solid 1px black;
-    width: 50%;
-}
-.pg4{
-    border-bottom: solid 1px black;
+.pg1 .pg2 .pg3 .pg4{
     width: 50%;
 }
 
