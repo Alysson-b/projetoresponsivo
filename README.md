@@ -2,7 +2,7 @@
 
 Esse é um projeto Web desenvolvido durante o curso de Dev Fullstack da Infinity School com o professor Luan Oliveira.
 
-![](./assents/page.png)
+![](./assents/print.png)
 
 ## 🔎 Tecnologias
 
